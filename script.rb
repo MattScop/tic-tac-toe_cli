@@ -57,6 +57,20 @@ class TicTacToe < Array
         end
     end
 
+    #Game start
+    def game_start
+        start_game = gets.chomp
+        until start_game == '1'
+            puts "Invalid value, press 1 to start the game"
+            start_game = gets.chomp
+        end
+        @table = TicTacToe.new(3) {TicTacToe.new(3)}
+        start_game
+        play
+    end
+
+    private
+
     # STEP 3
     def play
         #first player to start
@@ -109,17 +123,6 @@ class TicTacToe < Array
         @@rounds = []
         puts "PRESS 1 TO START THE GAME"
         game_start
-    end
-
-    #Game start
-    def game_start
-        start_game = gets.chomp
-        until start_game == '1'
-            puts "Invalid value, press 1 to start the game"
-            start_game = gets.chomp
-        end
-        @table = TicTacToe.new(3) {TicTacToe.new(3)}
-        start_game
     end
 
     def check_rounds
@@ -241,4 +244,3 @@ puts "--> The player who fills a row, a column or a diagonal with their symbol, 
 puts " "
 puts "PRESS 1 TO START THE GAME"
 table.game_start
-table.play
