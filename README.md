@@ -2,7 +2,7 @@
 
 ![tic-tac-toe](./img/tic-tac-toe_background-wallpaper.jpg)
 
-## In this project we are asked to create a command line tic-tac-toe game playable by two human players.
+## In this project we are asked to create a command line tic-tac-toe game playable by two human players using our knowledge about OOP
 
 <br>
 
