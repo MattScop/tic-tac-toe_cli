@@ -3,7 +3,7 @@
 ![tic-tac-toe](./img/tic-tac-toe_background-wallpaper.jpg)
 
 
-[![Run on Repl.it](https://replit.com/badge/github/MattScop/tic-tac-toe_cli)](https://replit.com/new/github/MattScop/tic-tac-toe_cli)
+[![Run on Repl.it](https://replit.com/badge/github/MattScophield/tic-tac-toe_cli)](https://replit.com/new/github/MattScophield/tic-tac-toe_cli)
 
 >SOURCES
 - Link to the lesson [HERE](https://www.theodinproject.com/lessons/ruby-tic-tac-toe)
